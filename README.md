@@ -17,9 +17,12 @@ In this repository, you will find the code for our project for the course of *Ne
 Simulations
 </p>
 <hr>
+
+
 |     5000     | 10000 | 20000 |
 |:-:|:-:|:-:|
 |![5000](gifs/simulation_5000.gif)|![10000](assets/simulation_10000.gif)|![20000](assets/simulation_20000.gif)|
+
 
 
 <hr>
