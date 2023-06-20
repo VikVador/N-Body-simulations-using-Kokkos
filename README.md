@@ -14,36 +14,34 @@ In this repository, you will find the code for our project for the course of *Ne
 
 <hr>
 <p  style="font-size:20px; font-weight:bold;" align="center">
+Simulations
+</p>
+<hr>
+|     5000     | 10000 | 20000 |
+|:-:|:-:|:-:|
+|![5000](gifs/simulation_5000.gif)|![10000](assets/simulation_10000.gif)|![20000](assets/simulation_20000.gif)|
+
+
+<hr>
+<p  style="font-size:20px; font-weight:bold;" align="center">
 Installation & Overview
 </p>
 <hr>
 
-Ocean and climate models attempt to simulate continuous processes, but are discrete and run at finite resolution. The error incurred by discretization on a finite grid, however, can be approximated by _subgrid parameterizations_ and corrected at every timestep. Subgrid parameterizations are attempting to capture the effects of scales that are not resolved on the finite grid of the climate or ocean models we are using. Subgrid parameterizations can be formulated and derived in many ways, e.g. as equations derived by physical analysis, as a neural network learned from data, or as equations again but learned from data with symbolic regression.
+The repository is composed as follows:
+
+1) In the *src* folder, you'll find *main.cpp* which contains the code for the N-BODY simulator in c++ using Kokkos.
+
+2) In the *content/codes* folder, you'll find the files *original.cpp* (a pure c++ version of the N-BODY simulation) and *kokkos.cpp* (a c++ and kokkos simulator which is almost identical to *original.cpp* to make easy comparisons);
+
+3) The code *galaxy.py* used to generate new simulation datasets;
+
+4) The code *benchmarks.py* used to compute the bandwidth and speed-up graphs.
+
+5) The code *vizualize.py* used to create gif from the simulation results.
 
 <hr>
 <p  style="font-size:20px; font-weight:bold;" align="center">
-Installation
+Presentation
 </p>
 <hr>
-
-1. Clone the repository
-
-2. Create an appropriate **Conda** environnement:
-
-```
-conda env create -f environment.yml
-```
-
-3. Activate the  **Conda** environnement:
-
-```
-conda activate TFE
-```
-
-4. Install locally as a package:
-
-```
-pip install --editable .
-```
-
-5. Run the code easily using the notebook [`TFE.ipynb`](./notebooks/TFE.ipynb).
