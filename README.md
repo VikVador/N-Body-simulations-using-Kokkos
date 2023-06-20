@@ -50,4 +50,4 @@ Presentation
 </p>
 <hr>
 
-[Some title here](content/slides/NCP-Slides.pdf)
+[Slides](content/slides/NCP-Slides.pdf)
