@@ -19,7 +19,12 @@ Simulations
 <hr>
 |     5000     | 10000 | 20000 |
 |:-:|:-:|:-:|
-|![5000](gifs/simulation_5000.gif)|![10000](assets/simulation_10000.gif)|![20000](assets/simulation_20000.gif)|
+|![5000](gifs/simulation_5000.gif)|![10000](gifs/simulation_10000.gif)|![20000](gifs/simulation_20000.gif)|
+| Planets (1) | Planets (2) |  Gas |
+|:-:|:-:|:-:|
+|![PacHUMAN](gifs/planets1.gif)|![PacMAN](gifs/planets2.gif)|![PacNET](gifs/gas.gif)|
+| Galaxy (2) | Galaxy (3) | Galaxy (3 - Inverse force) |
+|![PacHUMAN](gifs/galaxy2.gif)|![PacMAN](gifs/galaxy3.gif)|![PacNET](gifs/bigbang.gif)|
 
 
 <hr>
