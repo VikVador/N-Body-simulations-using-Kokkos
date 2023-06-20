@@ -49,3 +49,5 @@ The repository is composed as follows:
 Presentation
 </p>
 <hr>
+
+[Some title here](content/slides/NCP-Slides.pdf)
