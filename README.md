@@ -26,6 +26,9 @@ Simulations
 | Galaxy (2) | Galaxy (3) | Galaxy (3 - Inverse force) |
 |![PacHUMAN](gifs/galaxy2.gif)|![PacMAN](gifs/galaxy3.gif)|![PacNET](gifs/bigbang.gif)|
 
+| 5000 | 10000 | 20000 |
+|:-:|:-:|:-:|
+|![5000](gifs/simulation_5000.gif)|![10000](gifs/simulation_10000.gif)|![20000](gifs/simulation_20000.gif) |
 
 <hr>
 <p  style="font-size:20px; font-weight:bold;" align="center">
