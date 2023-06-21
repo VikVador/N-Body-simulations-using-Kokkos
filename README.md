@@ -50,4 +50,4 @@ Presentation
 </p>
 <hr>
 
-![Slides](content/slides/NCP-Slides.pdf)
+![Main](content/slides/main_header.png)
